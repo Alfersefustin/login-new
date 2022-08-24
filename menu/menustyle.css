@@ -78,3 +78,8 @@ label {
 .img {
   border-radius: 6px;
 }
+@media only screen and (max-width: 600px) {
+  .container-img {
+    display: block;
+  }
+}
