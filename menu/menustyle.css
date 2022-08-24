@@ -1,0 +1,10 @@
+.menu {
+  margin: 1rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(52, 213, 225),
+    rgb(121, 116, 116)
+  );
+  background-repeat: no-repeat;
+  height: 100vh;
+}
