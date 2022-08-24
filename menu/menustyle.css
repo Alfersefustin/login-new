@@ -6,5 +6,75 @@
     rgb(121, 116, 116)
   );
   background-repeat: no-repeat;
+  height: 100%;
+}
+.menu1 {
+  margin: 1rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(52, 213, 225),
+    rgb(121, 116, 116)
+  );
+  background-repeat: no-repeat;
   height: 100vh;
+}
+.about-sec {
+  display: flex;
+  justify-content: center;
+}
+.img-abt {
+  margin-right: 10px;
+}
+.cont-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.bg-white {
+  background-color: rgb(169, 151, 151);
+  padding: 25px;
+  border-radius: 5px;
+}
+.inp-contct {
+  width: 95%;
+  border-radius: 3px;
+  padding: 8px;
+  border: none;
+}
+label {
+  color: white;
+}
+.sub-cont {
+  text-align: end;
+  margin-top: 10px;
+}
+.sub-btn {
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(52, 213, 225);
+  cursor: pointer;
+}
+.area-text {
+  border: none;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about-sec {
+    display: block;
+  }
+}
+.container-img {
+  display: flex;
+  justify-content: space-around;
+}
+.img {
+  border-radius: 6px;
 }
